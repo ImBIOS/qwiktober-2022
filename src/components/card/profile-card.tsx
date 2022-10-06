@@ -44,6 +44,7 @@ export const ProfileCard = component$(
               class="social-media"
               href={`https://www.github.com/${githubUsername}`}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <GithubLogo />
             </a>
@@ -52,6 +53,7 @@ export const ProfileCard = component$(
                 class="social-media"
                 href={`https://www.instagram.com/${instagramUsername}`}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <InstagramLogo />
               </a>
@@ -61,6 +63,7 @@ export const ProfileCard = component$(
                 class="social-media"
                 href={`https://www.linkedin.com/in/${linkedinUsername}`}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <LinkedinLogo />
               </a>
