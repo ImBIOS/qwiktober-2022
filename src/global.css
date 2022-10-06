@@ -1,0 +1,428 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #434d56;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+.blink {
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* BODY */
+
+body {
+  background-color: #b2cdf6;
+}
+
+/* NAVBAR */
+
+.navbar-list {
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 17px 0;
+}
+
+.navbar-item {
+  margin: 0 20px;
+  list-style-type: none;
+}
+
+.toggle {
+  margin: 0 20px;
+  list-style-type: none;
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-link {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: black;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: 50px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.navbar-button {
+  font-size: 1em;
+  background: #2081e2;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-button:hover {
+  background-color: #3ce260;
+}
+
+@media screen and (max-width: 912px) {
+  .navbar-list {
+    flex-wrap: wrap;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .navbar-item {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .navbar-button {
+    display: block;
+  }
+
+  .show {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-list {
+    flex-wrap: wrap;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .navbar-item {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+  }
+
+  .navbar-button {
+    display: block;
+  }
+
+  .show {
+    display: block;
+  }
+}
+
+/* TITLE */
+
+.title {
+  padding: 50px 50px;
+}
+
+.title-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.big-heading {
+  flex: 1;
+  margin-left: -30px;
+  margin: auto;
+}
+
+.big-heading h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.big-heading p {
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+
+.explore-button {
+  background: #2081e2;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 12px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.explore-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.explore-button:hover {
+  background: #3ce260;
+}
+
+.hero {
+  flex: 1;
+  text-align: center;
+  margin: auto;
+  margin-right: 20px;
+}
+
+.hero-img {
+  width: 500px;
+  border-radius: 3%;
+}
+
+@media screen and (max-width: 992px) {
+  .title-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .big-heading {
+    margin: 0;
+    text-align: center;
+  }
+
+  .hero {
+    margin-top: 50px;
+    margin: auto;
+  }
+
+  .hero-img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title-container {
+    flex-direction: column;
+  }
+
+  .big-heading {
+    margin: 0;
+    text-align: center;
+  }
+
+  .hero {
+    margin-top: 50px;
+  }
+
+  .hero-img {
+    width: 300px;
+  }
+}
+
+/* COLLECTION */
+.collection {
+  margin-top: 25px;
+  background: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.collection h2 {
+  color: black;
+  font-size: 4em;
+  margin-bottom: 30px;
+}
+
+.collection-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.collection-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.collection-card:hover {
+  box-shadow: 0 0 15px #bbb;
+}
+
+.image-box {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.image-box:hover img {
+  transform: scale(1.2);
+}
+
+.collection-card h3 {
+  color: black;
+  font-weight: bold;
+  margin: 5px 0 10px 20px;
+  text-align: left;
+}
+
+.species {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0 10px 0 10px;
+  text-align: end;
+}
+
+.tipe {
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+  margin: 0 20px 5px;
+  margin: 10px 10px 0 10px;
+  text-align: end;
+}
+
+.card-button {
+  background: #2081e2;
+  padding: 15px 80px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border: 0;
+  margin: 10px 20px 20px;
+}
+
+.card-button:hover {
+  background: #3c8fe2;
+  box-shadow: 0 0 15px #bbb;
+}
+
+.collection-button {
+  background: #2081e2;
+  border: 0;
+  padding: 15px 50px;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  margin: 50px 0 0;
+}
+
+.collection-button:hover {
+  background: #3c8fe2;
+  box-shadow: 0 0 15px #bbb;
+}
+
+/* ASIDE */
+aside {
+  background: white;
+  justify-content: center;
+  display: none;
+}
+
+.biography-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+
+.biography-card:hover {
+  box-shadow: 0 0 15px #bbb;
+}
+
+.profile-img {
+  border-radius: 10px 10px 0 0;
+}
+
+.biography-card h3 {
+  color: black;
+  font-weight: bold;
+  margin: 5px 0 10px;
+}
+
+.biography-card p {
+  padding: 2px;
+}
+
+.contact {
+  margin: 20px 10px;
+}
+
+.social-media {
+  padding: 0 5px;
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  aside {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  aside {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  aside {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1024) {
+  aside {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  aside {
+    display: flex;
+  }
+}
+
+/* FOOTER */
+footer {
+  background: white;
+  text-align: center;
+  padding: 30px 0 30px;
+}
