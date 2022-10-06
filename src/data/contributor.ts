@@ -4,4 +4,9 @@ export default [
     githubUsername: "ImBIOS",
     instagramUsername: "imamdev_",
   },
+  {
+    fullname: "Tio",
+    githubUsername: "tio",
+    instagramUsername: "tio",
+  },
 ];
