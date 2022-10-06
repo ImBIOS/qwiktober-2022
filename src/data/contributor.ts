@@ -1,17 +1,10 @@
-export default [
+const contributor = [
   {
     fullname: "Imamuzzaki Abu Salam",
     githubUsername: "ImBIOS",
     instagramUsername: "imamdev_",
-  },
-  {
-    fullname: "Tio",
-    githubUsername: "tio",
-    instagramUsername: "tio",
-  },
-  {
-    fullname: "Imamuzzaki Abu Salam",
-    githubUsername: "ImBIOS",
-    instagramUsername: "imamdev_",
+    linkedinUsername: "imamuzzaki-abu-salam",
   },
 ];
+
+export default contributor;
