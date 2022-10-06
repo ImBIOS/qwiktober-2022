@@ -11,7 +11,7 @@ export default component$(() => {
         </div>
       </main>
       <footer>
-        <p>IDN Hacktoberfest &copy; 2022.</p>
+        <p>Qwiktober &copy; 2022.</p>
       </footer>
     </>
   );
