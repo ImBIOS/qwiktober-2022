@@ -28,9 +28,9 @@ export const RouterHead = component$(() => {
       />
 
       {/* Twitter */}
-      <meta property="og:site_name" content="IDN Hacktoberfest 2022" />
+      <meta property="og:site_name" content="Qwiktober 2022" />
       <meta name="twitter:site" content="@imamdev_" />
-      <meta name="twitter:title" content="IDN Hacktoberfest 2022" />
+      <meta name="twitter:title" content="Qwiktober 2022" />
 
       {head.meta.map((m) => (
         <meta {...m} />

@@ -14,7 +14,7 @@ export default component$(() => {
       <nav>
         <ul class="navbar-list">
           <li class="logo">
-            <a href="#">IDN Hacktoberfest 2022</a>
+            <a href="#">Qwiktober 2022</a>
           </li>
           <li class="toggle" onClick$={toggleMenu}>
             <MenuIcon />
