@@ -32,5 +32,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "IDN Hacktoberfest 2022yy",
+  title: "Qwiktober 2022yy",
 };
