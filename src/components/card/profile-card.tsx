@@ -3,7 +3,7 @@ import { GithubLogo } from "../icons/github";
 import { InstagramLogo } from "../icons/instagram";
 import { LinkedinLogo } from "../icons/linkedin";
 
-interface ProfileCardProps {
+export interface ProfileCardProps {
   fullname: string;
   image?: string;
   githubUsername: string;

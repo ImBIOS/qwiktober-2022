@@ -1,9 +1,10 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { ProfileCard } from "~/components/card/profile-card";
+import { CardGroup } from "~/components/card-group/card-group";
 import { FirstMarquee } from "~/components/marquee/first-marquee";
 import { SecondMarquee } from "~/components/marquee/second-marquee";
 import { Hero } from "~/components/section/hero";
+import contributor from "~/data/contributor";
 
 export default component$(() => {
   return (
@@ -17,13 +18,7 @@ export default component$(() => {
           <FirstMarquee />
           <SecondMarquee />
           <div class="collection-container">
-            <ProfileCard
-              fullname="Imamuzzaki Abu Salam"
-              image=""
-              githubUsername="ImBIOS"
-              instagramUsername="imamdev_"
-              linkedinUsername="imamuzzaki-abu-salam"
-            />
+            <CardGroup data={contributor} />
           </div>
         </section>
       </article>
