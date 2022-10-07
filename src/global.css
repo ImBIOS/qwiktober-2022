@@ -52,12 +52,18 @@ body {
 }
 
 .navbar-link {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
     font-weight: bold;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .navbar-link:hover {
     color: black;
+    background: #9cdaff;
+
 }
 
 .logo {
