@@ -4,6 +4,38 @@
 
 ---
 
+## 🏷️ To get started
+
+1. First, fork the repository.
+2. Clone the forked repository to your local machine.
+
+```markdown
+git clone https://github.com/your-username/simple-web-project-collection.git
+```
+
+3. Add upstream URL 
+
+4. Create a new branch
+
+```markdown
+git checkout -b branch_name
+```
+
+5. Make your contribution to `public/websites` to add your own website to show-off
+
+6. Commit and push the changes
+
+```markdown
+git add .
+git commit -m 'Relevant message'
+git push origin branch_name
+```
+
+7. Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
+
+8. Wait for your PR review and approval from the maintainers.
+  <br>
+
 ## Project Structure
 
 Inside of you project, you'll see the following directories and files:
