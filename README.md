@@ -10,7 +10,7 @@
 2. Clone the forked repository to your local machine.
 
 ```markdown
-git clone https://github.com/your-username/simple-web-project-collection.git
+git clone https://github.com/your-username/qwiktober-2022.git
 ```
 
 3. Add upstream URL 
