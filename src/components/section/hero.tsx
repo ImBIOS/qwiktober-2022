@@ -21,9 +21,7 @@ export const Hero = component$(() => {
               REQUESTS AND COMPLETE YOUR MISSION FOR OPEN SOURCE.
             </p>
             <a href="/">
-              <button class="explore-button">
-                Explore
-              </button>
+              <button class="explore-button">Explore</button>
             </a>
           </div>
         </div>

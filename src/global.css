@@ -52,18 +52,17 @@ body {
 }
 
 .navbar-link {
-    padding: 5px 10px;
-    border: none;
-    border-radius: 6px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.5s;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 .navbar-link:hover {
-    color: black;
-    background: #9cdaff;
-
+  color: black;
+  background: #9cdaff;
 }
 
 .logo {
@@ -176,20 +175,20 @@ body {
 }
 
 .explore-button {
-    color: white;
-    background: #2081e2;
-    border: none;
-    padding: 15px 40px;
-    border-radius: 12px;
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-right: 20px;
-    transition: 0.5s;
+  color: white;
+  background: #2081e2;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 12px;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-right: 20px;
+  transition: 0.5s;
 }
 
 .explore-button:hover {
-    background: #3495e3;
-    cursor: pointer;
+  background: #3495e3;
+  cursor: pointer;
 }
 
 .hero {
