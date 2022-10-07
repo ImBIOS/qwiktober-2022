@@ -20,9 +20,11 @@ export const Hero = component$(() => {
               YOUR NINTH—IT'S ALMOST TIME TO HACK OUT FOUR PRISTINE PULL/MERGE
               REQUESTS AND COMPLETE YOUR MISSION FOR OPEN SOURCE.
             </p>
-            <button class="explore-button">
-              <a href="/">Explore</a>
-            </button>
+            <a href="/">
+              <button class="explore-button">
+                Explore
+              </button>
+            </a>
           </div>
         </div>
       </section>
