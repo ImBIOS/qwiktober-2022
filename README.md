@@ -1,5 +1,7 @@
 # Qwiktober 2022 ⚡️
 
+<!-- DELETE THIS COMMENT -->
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/76ac0dc0-23c6-46b1-9374-edf61d6a4648/deploy-status)](https://app.netlify.com/sites/qwiktober2022/deploys)
 
 🎯 The repository contains projects based on web development i.e easy to advance level projects so as to get started with web       development and make your journey smooth in the field of web development.
