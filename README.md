@@ -1,6 +1,6 @@
 # Qwiktober 2022 ⚡️
 
-<!-- / DELETE THIS COMMENT -->
+<!-- // DELETE THIS COMMENT -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/76ac0dc0-23c6-46b1-9374-edf61d6a4648/deploy-status)](https://app.netlify.com/sites/qwiktober2022/deploys)
 
