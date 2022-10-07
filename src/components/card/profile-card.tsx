@@ -20,7 +20,7 @@ export const ProfileCard = component$(
     image,
     githubUsername,
     instagramUsername,
-    linkedinUsername,
+    linkedinUsername
   }: ProfileCardProps) => {
     return (
       <>
