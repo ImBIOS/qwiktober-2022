@@ -4,7 +4,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/76ac0dc0-23c6-46b1-9374-edf61d6a4648/deploy-status)](https://app.netlify.com/sites/qwiktober2022/deploys)
 
-🎯 The repository contains projects based on web development i.e easy to advance level projects so as to get started with web       development and make your journey smooth in the field of web development.
+🎯 The repository contains projects based on web development i.e easy to advance level projects so as to get started with web development and make your journey smooth in the field of web development.
 
 🎯 This repository is open to all the members of the GitHub community. Feel free to contribute to this repository.
 
@@ -21,7 +21,7 @@
 git clone https://github.com/your-username/qwiktober-2022.git
 ```
 
-3. Add upstream URL 
+3. Add upstream URL
 
 4. Create a new branch
 
@@ -42,7 +42,7 @@ git push origin branch_name
 7. Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 
 8. Wait for your PR review and approval from the maintainers.
-  <br>
+   <br>
 
 ## 🫗 Project Structure
 

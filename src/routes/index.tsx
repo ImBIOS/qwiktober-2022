@@ -27,5 +27,5 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Qwiktober 2022",
+  title: "Qwiktober 2022"
 };
