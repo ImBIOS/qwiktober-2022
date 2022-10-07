@@ -19,7 +19,8 @@
     "preview": "qwik build preview && vite preview --open",
     "serve": "netlify dev",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*' --write"
   },
   "devDependencies": {
     "@builder.io/qwik": "0.9.0",
