@@ -1,0 +1,5 @@
+# Add 'hacktoberfest-accepted' label to any file changes
+hacktoberfest-accepted: 
+- "*"
+- public/**/*
+- src/**/*

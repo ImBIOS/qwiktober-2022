@@ -5,6 +5,10 @@ const contributor = [
     instagramUsername: "imamdev_",
     linkedinUsername: "imamuzzaki-abu-salam",
   },
+  {
+    fullname: "Roshi Shafia Zaidan",
+    githubUsername: "rodhisz",
+  },
 ];
 
 export default contributor;
