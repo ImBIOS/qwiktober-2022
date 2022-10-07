@@ -6,8 +6,10 @@ const contributor = [
     linkedinUsername: "imamuzzaki-abu-salam",
   },
   {
-    fullname: "Roshi Shafia Zaidan",
+    fullname: "Rodhi Shafia Zaidan",
     githubUsername: "rodhisz",
+    instagramUsername: "rodhisz",
+    linkedinUsername: "rodhi-shafia-zaidan",
   },
 ];
 
