@@ -18,6 +18,12 @@ const contributor = [
     linkedinUsername: "tio-risnanto-605515164",
   },
   {
+    fullname: "Humam Muasyir",
+    githubUsername: "Mammuasyir",
+    instagramUsername: "humammuasyir",
+    linkedinUsername: "Humam Muasyir",
+  },
+  {
     fullname: "Nur Ihsan Al Ghifari",
     githubUsername: "Iyxan23",
     instagramUsername: "nurihsanag",
