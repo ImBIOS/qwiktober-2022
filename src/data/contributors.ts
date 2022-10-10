@@ -34,6 +34,12 @@ const contributor = [
     githubUsername: "Iyxan23",
     instagramUsername: "nurihsanag",
     linkedinUsername: "nurihsanag"
+  },
+  {
+    fullname: "Nafi Ageng Dhiandra",
+    githubUsername: "Nafgeng",
+    instagramUsername: "Nafgeng",
+    linkedinUsername: "Nafi Ageng Dhiandra"
   }
 ];
 
