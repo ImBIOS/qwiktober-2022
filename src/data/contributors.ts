@@ -71,6 +71,12 @@ const contributor = [
     instagramUsername: "Nafgeng",
     linkedinUsername: "Nafi Ageng Dhiandra"
   },
+  {
+  fullname: "Abdul Aziz Zaki Hidayat",
+    githubUsername: "ZakiHidayat",
+    instagramUsername: "zakbeebat",
+    linkedinUsername: "Abdul Aziz Zaki Hidayat"
+  }
 ];
 
 export default contributor;
