@@ -12,6 +12,12 @@ const contributor = [
     linkedinUsername: "rodhi-shafia-zaidan"
   },
   {
+    fullname: "Muhammad Dzikry Hidayat",
+    githubUsername: "Dzikstarts",
+    instagramUsername: "mhmmd.dzkry_",
+    linkedinUsername: "Dzikry Hidayat"
+  },
+  {
     fullname: "Tio Risnanto",
     githubUsername: "risnanto73",
     instagramUsername: "risnanto73_",
