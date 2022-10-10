@@ -42,10 +42,10 @@ const contributor = [
     linkedinUsername: "nurihsanag"
   },
   {
-    fullname: "Anas Muflih",
-    githubUsername: "anszmflhs",
-    instagramUsername: "anasmuflih",
-    linkedinUsername: "Anas Muflih"
+    fullname: "Noval Adi Prasety",
+    githubUsername: "NovalAdi",
+    instagramUsername: "noval.a.d.p",
+    linkedinUsername: "Noval Adi Prasetya"
   }
 ];
 
