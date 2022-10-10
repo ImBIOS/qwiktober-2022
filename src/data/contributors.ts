@@ -58,7 +58,13 @@ const contributor = [
     githubUsername: "NovalAdi",
     instagramUsername: "noval.a.d.p",
     linkedinUsername: "Noval Adi Prasetya"
-  }
+  },
+  {
+  fullname: "Nafi Ageng Dhiandra",
+    githubUsername: "Nafgeng",
+    instagramUsername: "Nafgeng",
+    linkedinUsername: "Nafi Ageng Dhiandra"
+  },
 ];
 
 export default contributor;
