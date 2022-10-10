@@ -34,7 +34,13 @@ const contributor = [
     githubUsername: "Iyxan23",
     instagramUsername: "nurihsanag",
     linkedinUsername: "nurihsanag"
-  }
+  },
+  {
+    fullname: "Athallah Zaidan Ariq",
+    githubUsername: "Athazai ",
+    instagramUsername: "athallah_zaq",
+    linkedinUsername: "athallah-zaidan"
+  },
 ];
 
 export default contributor;
