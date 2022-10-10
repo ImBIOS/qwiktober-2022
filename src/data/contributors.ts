@@ -47,7 +47,7 @@ const contributor = [
     instagramUsername: "nurihsanag",
     linkedinUsername: "nurihsanag"
   },
-  }
+  {
     fullname: "Anas Muflih",
     githubUsername: "anszmflhs",
     instagramUsername: "anasmuflih",
