@@ -36,6 +36,12 @@ const contributor = [
     linkedinUsername: "Humam Muasyir",
   },
   {
+  fullname: "Athallah Zaidan Ariq",
+    githubUsername: "Athazai ",
+    instagramUsername: "athallah_zaq",
+    linkedinUsername: "athallah-zaidan"
+  },
+  {
     fullname: "Nur Ihsan Al Ghifari",
     githubUsername: "Iyxan23",
     instagramUsername: "nurihsanag",
@@ -54,7 +60,7 @@ const contributor = [
     linkedinUsername: "Nuril Nuzula"
   },
   {
-    fullname: "Noval Adi Prasety",
+    fullname: "Noval Adi Prasetya",
     githubUsername: "NovalAdi",
     instagramUsername: "noval.a.d.p",
     linkedinUsername: "Noval Adi Prasetya"
@@ -64,6 +70,12 @@ const contributor = [
     githubUsername: "Nafgeng",
     instagramUsername: "Nafgeng",
     linkedinUsername: "Nafi Ageng Dhiandra"
+  },
+  {
+  fullname: "Abdul Aziz Zaki Hidayat",
+    githubUsername: "ZakiHidayat",
+    instagramUsername: "zakbeebat",
+    linkedinUsername: "Abdul Aziz Zaki Hidayat"
   },
   {
   fullname: "Dzakwan Daris Rachman",
