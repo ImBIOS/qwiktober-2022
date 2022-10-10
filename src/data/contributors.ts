@@ -12,6 +12,12 @@ const contributor = [
     linkedinUsername: "rodhi-shafia-zaidan"
   },
   {
+    fullname: "Muhammad Dzikry Hidayat",
+    githubUsername: "Dzikstarts",
+    instagramUsername: "mhmmd.dzkry_",
+    linkedinUsername: "Dzikry Hidayat"
+  },
+  {
     fullname: "Tio Risnanto",
     githubUsername: "risnanto73",
     instagramUsername: "risnanto73_",
@@ -35,12 +41,36 @@ const contributor = [
     instagramUsername: "nurihsanag",
     linkedinUsername: "nurihsanag"
   },
+  }
+    fullname: "Anas Muflih",
+    githubUsername: "anszmflhs",
+    instagramUsername: "anasmuflih",
+    linkedinUsername: "Anas Muflih"
+  },
   {
-    fullname: "Dzakwan Daris Rachman",
+    fullname: "Nuril Nuzula Anhar",
+    githubUsername: "Nuril-Nuzula",
+    instagramUsername: "xylone___",
+    linkedinUsername: "Nuril Nuzula"
+  },
+  {
+    fullname: "Noval Adi Prasety",
+    githubUsername: "NovalAdi",
+    instagramUsername: "noval.a.d.p",
+    linkedinUsername: "Noval Adi Prasetya"
+  },
+  {
+  fullname: "Nafi Ageng Dhiandra",
+    githubUsername: "Nafgeng",
+    instagramUsername: "Nafgeng",
+    linkedinUsername: "Nafi Ageng Dhiandra"
+  },
+  {
+  fullname: "Dzakwan Daris Rachman",
     githubUsername: "Drachzak",
     instagramUsername: "dzaksssssss",
     linkedinUsername: "Dzakwan Rachman"
-  }
+  },
 ];
 
 export default contributor;
