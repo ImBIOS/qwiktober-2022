@@ -10,6 +10,8 @@ export const Hero = component$(() => {
               src="images/qwiktober_hero.svg"
               class="hero-img"
               alt="Hero Image"
+              width={500}
+              height={707}
             />
           </div>
 
