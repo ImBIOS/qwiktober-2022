@@ -13,7 +13,7 @@ const contributor = [
   },
   {
     fullname: "Muhammad Dzikry Hidayat",
-    githubUsername: "Dzikstarts",
+    githubUsername: "Dzikstrats",
     instagramUsername: "mhmmd.dzkry_",
     linkedinUsername: "Dzikry Hidayat"
   },
@@ -37,7 +37,7 @@ const contributor = [
   },
   {
     fullname: "Athallah Zaidan Ariq",
-    githubUsername: "Athazai ",
+    githubUsername: "Athazai",
     instagramUsername: "athallah_zaq",
     linkedinUsername: "athallah-zaidan"
   },
