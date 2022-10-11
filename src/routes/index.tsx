@@ -1,26 +1,21 @@
 import { component$, useServerMount$, useStore } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import axios from "axios";
 import { CardGroup } from "~/components/card-group/card-group";
 import { FirstMarquee } from "~/components/marquee/first-marquee";
 import { SecondMarquee } from "~/components/marquee/second-marquee";
 import { Hero } from "~/components/section/hero";
 import contributors from "~/data/contributors";
 
-export interface Contributor {
-  login: string;
-  avatar_url: string;
-}
-
 export default component$(() => {
   const store = useStore({ data: [] });
 
   useServerMount$(async () => {
-    const response = (await axios.get(
+    const response = await fetch(
       "https://api.github.com/repos/ImBIOS/qwiktober-2022/contributors"
-    )) as any;
+    );
+    let data = await response.json();
 
-    const data = response.data.map((contributor: Contributor) => {
+    data = data.map((contributor: Contributor) => {
       return {
         githubUsername: contributor.login,
         fullname: contributor.login,
@@ -60,3 +55,8 @@ export default component$(() => {
 export const head: DocumentHead = {
   title: "Qwiktober 2022"
 };
+
+interface Contributor {
+  login: string;
+  avatar_url: string;
+}

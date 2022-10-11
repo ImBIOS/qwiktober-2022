@@ -2,7 +2,7 @@
   "name": "my-qwik-basic-starter",
   "description": "Recommended for your first Qwik app",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=15.0.0"
   },
   "type": "module",
   "private": false,
