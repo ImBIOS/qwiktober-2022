@@ -46,7 +46,7 @@ git push origin branch_name
 
 ## 🧑‍💻 Customize Contributor Card
 
-The `src/data/contributors.ts` file is responsible for custom contributor data. **Please don't edit others data if you don't want to get blocked by the maintainer!** 
+The `src/data/contributors.ts` file is responsible for custom contributor data. **Please don't edit others data if you don't want to get blocked by the maintainer!**
 
    <br />
 
@@ -81,7 +81,6 @@ npm run dev
 ```
 
 > Note: during dev mode, Vite will request many JS files, which does not represent a Qwik production build.
-
 
 ### 🔨 Local development
 
