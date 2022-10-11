@@ -8,22 +8,23 @@
 
 🎯 Do not forget to ⭐ the repository.
 
----
+<br />
 
-## 🏷️ To get started
+## 🏷️ Get Started
 
-1. First, fork the repository.
+1. First, [fork the repository](https://github.com/ImBIOS/qwiktober-2022/fork).
+
 2. Clone the forked repository to your local machine.
 
-```markdown
-git clone https://github.com/your-username/qwiktober-2022.git
+```bash
+git clone https://github.com/{YOUR-USERNAME}/qwiktober-2022.git
 ```
 
 3. Add upstream URL
 
 4. Create a new branch
 
-```markdown
+```bash
 git checkout -b branch_name
 ```
 
@@ -31,7 +32,7 @@ git checkout -b branch_name
 
 6. Commit and push the changes
 
-```markdown
+```bash
 git add .
 git commit -m 'Relevant message'
 git push origin branch_name
@@ -40,6 +41,12 @@ git push origin branch_name
 7. Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 
 8. Wait for your PR review and approval from the maintainers.
+
+   <br />
+
+## 🧑‍💻 Customize Contributor Card
+
+The `src/data/contributors.ts` file is responsible for custom contributor data. **Please don't edit others data if you don't want to get blocked by the maintainer!** 
 
    <br />
 
@@ -62,6 +69,8 @@ Inside of you project, you'll see the following directories and files:
 - `src/components`: Recommended directory for components.
 
 - `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
+
+<br />
 
 ## ⚒️ Development
 
