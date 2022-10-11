@@ -2,9 +2,10 @@
   "name": "my-qwik-basic-starter",
   "description": "Recommended for your first Qwik app",
   "engines": {
-    "node": ">=15.0.0"
+    "node": ">=16.0.0"
   },
-  "private": true,
+  "type": "module",
+  "private": false,
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
@@ -13,14 +14,18 @@
     "build.types": "tsc --incremental --noEmit",
     "dev": "vite --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
-    "fmt": "prettier --write .",
+    "fmt": "prettier --write",
+    "fmt.all": "prettier --write .",
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "serve": "netlify dev",
     "start": "vite --open --mode ssr",
     "qwik": "qwik",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*' --write"
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
+    "postinstall": "husky install",
+    "lint-staged": "lint-staged",
+    "test": "mocha src/data/ && ava"
   },
   "devDependencies": {
     "@builder.io/qwik": "0.9.0",
@@ -30,10 +35,13 @@
     "@types/node": "latest",
     "@typescript-eslint/eslint-plugin": "5.37.0",
     "@typescript-eslint/parser": "5.37.0",
+    "ava": "^4.3.3",
     "eslint": "8.23.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-qwik": "0.9.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "node-fetch": "3.2.10",
     "prettier": "^2.7.1",
     "typescript": "4.8.3",

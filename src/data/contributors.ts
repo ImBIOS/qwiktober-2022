@@ -33,10 +33,10 @@ const contributor = [
     fullname: "Humam Muasyir",
     githubUsername: "Mammuasyir",
     instagramUsername: "humammuasyir",
-    linkedinUsername: "Humam Muasyir",
+    linkedinUsername: "Humam Muasyir"
   },
   {
-  fullname: "Athallah Zaidan Ariq",
+    fullname: "Athallah Zaidan Ariq",
     githubUsername: "Athazai ",
     instagramUsername: "athallah_zaq",
     linkedinUsername: "athallah-zaidan"
@@ -66,23 +66,23 @@ const contributor = [
     linkedinUsername: "Noval Adi Prasetya"
   },
   {
-  fullname: "Nafi Ageng Dhiandra",
+    fullname: "Nafi Ageng Dhiandra",
     githubUsername: "Nafgeng",
     instagramUsername: "Nafgeng",
     linkedinUsername: "Nafi Ageng Dhiandra"
   },
   {
-  fullname: "Abdul Aziz Zaki Hidayat",
+    fullname: "Abdul Aziz Zaki Hidayat",
     githubUsername: "ZakiHidayat",
     instagramUsername: "zakbeebat",
     linkedinUsername: "Abdul Aziz Zaki Hidayat"
   },
   {
-  fullname: "Dzakwan Daris Rachman",
+    fullname: "Dzakwan Daris Rachman",
     githubUsername: "Drachzak",
     instagramUsername: "dzaksssssss",
     linkedinUsername: "Dzakwan Rachman"
-  },
+  }
 ];
 
 export default contributor;
