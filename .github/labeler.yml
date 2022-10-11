@@ -5,3 +5,6 @@ hacktoberfest-accepted:
   - ".github/**/*"
   - src/**/*
   - public/**/*
+
+invalid:
+  - "src/data/contributors.ts"
