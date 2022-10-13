@@ -83,6 +83,12 @@ const contributor = [
     instagramUsername: "dzaksssssss",
     linkedinUsername: "Dzakwan Rachman"
   },
+  {
+    fullname: "Arvind Srivastav",
+    githubUsername: "alwenpy",
+    instagramUsername: "oyealwen",
+    linkedinUsername: "Arvind Srivastav"
+  },
 ];
 
 export default contributor;
