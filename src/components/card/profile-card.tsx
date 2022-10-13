@@ -20,13 +20,14 @@ export const ProfileCard = component$(
     image,
     githubUsername,
     instagramUsername,
-    linkedinUsername,
+    linkedinUsername
   }: ProfileCardProps) => {
     return (
       <>
         <div class="biography-card" data-aos="fade-up" data-aos-duration="2000">
           <figure>
             <img
+              loading="lazy"
               src={
                 image
                   ? image

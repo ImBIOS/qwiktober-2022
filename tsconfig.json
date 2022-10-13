@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "outDir": "dist",
     "target": "ES2017",
     "module": "ES2020",
     "lib": ["es2020", "DOM", "WebWorker"],
@@ -18,5 +19,5 @@
       "~/*": ["./src/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "lint-staged.config.js", "test.js", ".eslintrc.cjs"]
 }

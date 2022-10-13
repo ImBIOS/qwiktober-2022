@@ -4,7 +4,8 @@
   "engines": {
     "node": ">=15.0.0"
   },
-  "private": true,
+  "type": "module",
+  "private": false,
   "scripts": {
     "build": "qwik build",
     "build.client": "vite build",
@@ -13,13 +14,18 @@
     "build.types": "tsc --incremental --noEmit",
     "dev": "vite --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
-    "fmt": "prettier --write .",
+    "fmt": "prettier --write",
+    "fmt.all": "prettier --write .",
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "serve": "netlify dev",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
+    "postinstall": "husky install",
+    "lint-staged": "lint-staged",
+    "test": "ava"
   },
   "devDependencies": {
     "@builder.io/qwik": "0.9.0",
@@ -29,10 +35,17 @@
     "@types/node": "latest",
     "@typescript-eslint/eslint-plugin": "5.37.0",
     "@typescript-eslint/parser": "5.37.0",
+    "ava": "^4.3.3",
+    "axios": "^1.1.2",
     "eslint": "8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-qwik": "0.9.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "node-fetch": "3.2.10",
-    "prettier": "2.7.1",
+    "prettier": "^2.7.1",
+    "ts-import": "^4.0.0-beta.6",
     "typescript": "4.8.3",
     "vite": "3.1.1",
     "vite-tsconfig-paths": "3.5.0"

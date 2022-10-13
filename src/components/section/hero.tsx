@@ -7,9 +7,11 @@ export const Hero = component$(() => {
         <div class="title-container">
           <div class="hero">
             <img
-              src="images/idn-landscape.gif"
+              src="images/qwiktober_hero.svg"
               class="hero-img"
               alt="Hero Image"
+              width={500}
+              height={707}
             />
           </div>
 
@@ -20,9 +22,9 @@ export const Hero = component$(() => {
               YOUR NINTH—IT'S ALMOST TIME TO HACK OUT FOUR PRISTINE PULL/MERGE
               REQUESTS AND COMPLETE YOUR MISSION FOR OPEN SOURCE.
             </p>
-            <button class="explore-button">
-              <a href="/">Explore</a>
-            </button>
+            <a href="/">
+              <button class="explore-button">Explore</button>
+            </a>
           </div>
         </div>
       </section>

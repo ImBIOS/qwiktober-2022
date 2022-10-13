@@ -10,11 +10,13 @@
   margin: 0;
   padding: 0;
   color: #434d56;
-  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
+
 .blink {
   animation: blinker 1.5s linear infinite;
 }
+
 @keyframes blinker {
   50% {
     opacity: 0;
@@ -50,12 +52,17 @@ body {
 }
 
 .navbar-link {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .navbar-link:hover {
   color: black;
+  background: #9cdaff;
 }
 
 .logo {
@@ -168,22 +175,20 @@ body {
 }
 
 .explore-button {
+  color: white;
   background: #2081e2;
   border: none;
-  padding: 20px 50px;
+  padding: 15px 40px;
   border-radius: 12px;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: bold;
   margin-right: 20px;
-}
-
-.explore-button a {
-  text-decoration: none;
-  color: white;
+  transition: 0.5s;
 }
 
 .explore-button:hover {
-  background: #3ce260;
+  background: #3495e3;
+  cursor: pointer;
 }
 
 .hero {
