@@ -2,22 +2,31 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/76ac0dc0-23c6-46b1-9374-edf61d6a4648/deploy-status)](https://app.netlify.com/sites/qwiktober2022/deploys)
 
----
+[![CodeQL](https://github.com/ImBIOS/qwiktober-2022/actions/workflows/codeql.yml/badge.svg)](https://github.com/ImBIOS/qwiktober-2022/actions/workflows/codeql.yml)
 
-## 🏷️ To get started
+🎯 The repository contains projects based on web development i.e easy to advance level projects so as to get started with web development and make your journey smooth in the field of web development.
 
-1. First, fork the repository.
+🎯 This repository is open to all the members of the GitHub community. Feel free to contribute to this repository.
+
+🎯 Do not forget to ⭐ the repository.
+
+<br />
+
+## 🏷️ Get Started
+
+1. First, [fork the repository](https://github.com/ImBIOS/qwiktober-2022/fork).
+
 2. Clone the forked repository to your local machine.
 
-```markdown
-git clone https://github.com/your-username/qwiktober-2022.git
+```bash
+git clone https://github.com/{YOUR-USERNAME}/qwiktober-2022.git
 ```
 
-3. Add upstream URL 
+3. Add upstream URL
 
 4. Create a new branch
 
-```markdown
+```bash
 git checkout -b branch_name
 ```
 
@@ -25,7 +34,7 @@ git checkout -b branch_name
 
 6. Commit and push the changes
 
-```markdown
+```bash
 git add .
 git commit -m 'Relevant message'
 git push origin branch_name
@@ -34,7 +43,14 @@ git push origin branch_name
 7. Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 
 8. Wait for your PR review and approval from the maintainers.
-  <br>
+
+   <br />
+
+## 🧑‍💻 Customize Contributor Card
+
+The `src/data/contributors.ts` file is responsible for custom contributor data. **Please don't edit others data if you don't want to get blocked by the maintainer!**
+
+   <br />
 
 ## 🫗 Project Structure
 
@@ -56,13 +72,7 @@ Inside of you project, you'll see the following directories and files:
 
 - `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
 
-## 🧩 Add Integrations
-
-Use the `npm run qwik add` command to add other integrations. Some examples of integrations include as a Cloudflare, Netlify or Vercel server, and the Static Site Generator (SSG).
-
-```
-npm run qwik add
-```
+<br />
 
 ## ⚒️ Development
 
@@ -74,26 +84,6 @@ npm run dev
 
 > Note: during dev mode, Vite will request many JS files, which does not represent a Qwik production build.
 
-## 🔍 Preview
-
-The preview command will create a production build of the client modules, production build of `src/entry.preview.tsx`, and create a local server. The preview server is only for convenience to locally preview a production build, but it should not be used as a production server.
-
-```
-npm run preview
-```
-
-## 🏭 Production
-
-The production build should generate the client and server modules by running both client and server build commands. Additionally, the build command will use Typescript run a type check on the source.
-
-```
-npm run build
-```
-
-## 🕸️ Netlify
-
-This starter site is configured to deploy to [Netlify Edge Functions](https://www.netlify.com/products/edge/), which means it will be rendered at an edge location near to your users.
-
 ### 🔨 Local development
 
 The [Netlify CLI](https://docs.netlify.com/cli/get-started/) can be used to preview a production build locally. To do so: First build your site, then to start a local server, run:
@@ -103,29 +93,3 @@ The [Netlify CLI](https://docs.netlify.com/cli/get-started/) can be used to prev
 3. Start a local server with `npm run serve`.
    In this project, `npm run serve` uses the `netlify dev` command to spin up a server that can handle Netlify's Edge Functions locally.
 4. Visit [http://localhost:8888/](http://localhost:8888/) to check out your site.
-
-### 🐳 Deployments
-
-You can [deploy your site to Netlify](https://docs.netlify.com/site-deploys/create-deploys/) either via a Git provider integration or through the Netlify CLI. This starter site includes a `netlify.toml` file to configure your build for deployment.
-
-#### 🕸️ Deploying via Git
-
-Once your site has been pushed to your Git provider, you can either link it [in the Netlify UI](https://app.netlify.com/start) or use the CLI. To link your site to a Git provider from the Netlify CLI, run the command:
-
-```shell
-netlify link
-```
-
-This sets up [continuous deployment](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git) for your site's repo. Whenever you push new commits to your repo, Netlify starts the build process..
-
-#### 🧑‍💻 Deploying manually via the CLI
-
-If you wish to deploy from the CLI rather than using Git, you can use the command:
-
-```shell
-netlify deploy --build
-```
-
-You must use the `--build` flag whenever you deploy. This ensures that the Edge Functions that this starter site relies on are generated and available when you deploy your site.
-
-Add `--prod` flag to deploy to production.

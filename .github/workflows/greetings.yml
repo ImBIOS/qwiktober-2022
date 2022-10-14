@@ -9,8 +9,8 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-    - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Welcoe! 😁 This is your first Issue"
-        pr-message: "Welcoe! 😁 This is your first PR"
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Wow! This is your first issue. Welcome to this community 😁"
+          pr-message: "Wow! This is your first PR. Welcome to this community 😁"

@@ -1,7 +1,9 @@
 * {
+
     margin: 0;
     padding: 0;
     color: var(--color-font);
     font-family: "IBM Plex Sans Arabic", sans-serif;
     text-decoration: none;
+  margin: 0;
 }
