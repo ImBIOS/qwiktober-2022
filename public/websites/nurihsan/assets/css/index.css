@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'lovelo-black';
+  src: url("../fonts/Lovelo/Lovelo-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'lovelo-linebold';
+  src: url("../fonts/Lovelo/Lovelo-LineBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'lovelo-linelight';
+  src: url("../fonts/Lovelo/Lovelo-LineLight.woff2") format("woff2");
+}
+
+html, body {
+    margin: 0;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+h1 {
+    font-family: 'lovelo-black';
+    margin: 0;
+}
+
+#top-container {
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+
+    scroll-snap-align: start;
+
+    background: hsla(0, 0%, 100%, 1);
+    background: linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 33%, hsla(310, 66%, 48%, 1) 66%, hsla(215, 93%, 58%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 33%, hsla(310, 66%, 48%, 1) 66%, hsla(215, 93%, 58%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 33%, hsla(310, 66%, 48%, 1) 66%, hsla(215, 93%, 58%, 1) 100%);
+    background-size: 300% 100%;
+    background-position: 0% 0%;
+
+    transition: background-position 1s ease;
+}
+
+
+#top-container #intro {
+    font-size: 3rem;
+    align-self: center;
+    color: black;
+    transition: color 1s ease-out;
+}
+
+#top-container #intro #name {
+    display: inline-block;
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 33%, hsla(310, 66%, 48%, 1) 66%, hsla(215, 93%, 58%, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    box-decoration-break: clone;
+    background-size: 400% 100%;
+    background-position-x: 0%;
+    
+    transition: background-position-x 1s ease;
+}
