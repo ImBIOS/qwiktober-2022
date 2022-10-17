@@ -17,6 +17,12 @@ const contributor = [
     instagramUsername: "risnanto73_",
     linkedinUsername: "tio-risnanto-605515164",
   },
+  {
+    fullname: "Farel Al Gibran Anhar",
+    githubUsername: "REALIFEEE",
+    instagramUsername: "far_gibran",
+    linkedinUsername: "farelalgibrananhar",
+  },
 ];
 
 export default contributor;
