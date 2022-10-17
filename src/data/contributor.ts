@@ -21,7 +21,7 @@ const contributor = [
     fullname: "Ayyub Iqbal Trenggono",
     githubUsername: "Iqballaayyub",
     instagramUsername: "iqballaayyub._",
-    linkedinUsername: "",
+    linkedinUsername: "yub-iqbal-139059254",
   },
 ];
 
