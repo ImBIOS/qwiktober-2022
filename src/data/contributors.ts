@@ -89,6 +89,12 @@ const contributor = [
     instagramUsername: "dzaksssssss",
     linkedinUsername: "Dzakwan Rachman"
   }
+  {
+    fullname: "Muhammad Irfan Fahrurohman",
+    githubUsername: "irfanroman",
+    instagramUsername: "fan_fahrurohman",
+    linkedinUsername: "irfan fahrurohman"
+  }
 ];
 
 export default contributor;
