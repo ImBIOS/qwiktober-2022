@@ -12,10 +12,10 @@ const contributor = [
     linkedinUsername: "rodhi-shafia-zaidan",
   },
   {
-    fullname: "Tio Risnanto",
-    githubUsername: "risnanto73",
-    instagramUsername: "risnanto73_",
-    linkedinUsername: "tio-risnanto-605515164",
+    fullname: "Ahmad Tantra Nur Firdaus",
+    githubUsername: "IDOZZZ",
+    instagramUsername: "ahmadtnfirdaus",
+    linkedinUsername: "ahmad tantra nur firdaus RPL",
   },
 ];
 
