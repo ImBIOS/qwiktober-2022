@@ -1,0 +1,14 @@
+* {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+
+.name {
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.desc {
+    margin: 20px;
+}
