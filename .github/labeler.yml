@@ -5,3 +5,6 @@ hacktoberfest-accepted:
   - ".github/**/*"
   - src/**/*
   - public/**/*
+
+invalid:
+  - "test.js"

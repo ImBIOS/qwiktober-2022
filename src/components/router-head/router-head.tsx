@@ -22,10 +22,6 @@ export const RouterHead = component$(() => {
       {/* Google Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;300;400&display=swap"
-        rel="stylesheet"
-      />
 
       {/* Twitter */}
       <meta property="og:site_name" content="Qwiktober 2022" />
