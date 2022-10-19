@@ -82,12 +82,6 @@ const contributor = [
     githubUsername: "Drachzak",
     instagramUsername: "dzaksssssss",
     linkedinUsername: "Dzakwan Rachman"
-  },
-  {
-    fullname: "Dzakwan Daris Rachman",
-    githubUsername: "Drachzak",
-    instagramUsername: "dzaksssssss",
-    linkedinUsername: "Dzakwan Rachman"
   }
 ];
 
