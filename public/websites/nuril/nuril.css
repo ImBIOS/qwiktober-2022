@@ -5,4 +5,9 @@ h1{
 }
 p{
     color: gray;
+    size: 30px;
+}
+.region{
+    color: gray;
+    size: 16px;
 }

@@ -1,7 +1,6 @@
 * {
     font-family: "Rubik", sans-serif;
     text-align: center;
-}
 
 .name {
     display: inline;
@@ -13,4 +12,3 @@
 .desc {
     margin: 20px;
 }
-
