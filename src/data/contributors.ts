@@ -24,17 +24,59 @@ const contributor = [
     linkedinUsername: "Humam Muasyir"
   },
   {
-    fullname: "Humam Muasyir",
-    githubUsername: "Mammuasyir",
-    instagramUsername: "humammuasyir",
-    linkedinUsername: "Humam Muasyir",
-  },
-  {
     fullname: "Nur Ihsan Al Ghifari",
     githubUsername: "Iyxan23",
     instagramUsername: "nurihsanag",
     linkedinUsername: "nurihsanag"
-  }
+  },
+  {
+    fullname: "Anas Muflih",
+    githubUsername: "anszmflhs",
+    instagramUsername: "anasmuflih",
+    linkedinUsername: "Anas Muflih"
+  },
+  {
+    fullname: "Nuril Nuzula Anhar",
+    githubUsername: "Nuril-Nuzula",
+    instagramUsername: "xylone___",
+    linkedinUsername: "Nuril Nuzula"
+  },
+  {
+    fullname: "Noval Adi Prasetya",
+    githubUsername: "NovalAdi",
+    instagramUsername: "noval.a.d.p",
+    linkedinUsername: "Noval Adi Prasetya"
+  },
+  {
+    fullname: "Nafi Ageng Dhiandra",
+    githubUsername: "Nafgeng",
+    instagramUsername: "Nafgeng",
+    linkedinUsername: "Nafi Ageng Dhiandra"
+  },
+  {
+    fullname: "Abdul Aziz Zaki Hidayat",
+    githubUsername: "ZakiHidayat",
+    instagramUsername: "zakbeebat",
+    linkedinUsername: "Abdul Aziz Zaki Hidayat"
+  },
+  {
+    fullname: "Dzakwan Daris Rachman",
+    githubUsername: "Drachzak",
+    instagramUsername: "dzaksssssss",
+    linkedinUsername: "Dzakwan Rachman"
+  },
+  {
+    fullname: "Muhammad Dzikry Hidayat",
+    githubUsername: "Dzikstrats",
+    instagramUsername: "mhmmd.dzkry_",
+    linkedinUsername: "Dzikry Hidayat"
+  },
+  {
+    fullname: "Athallah Zaidan Ariq",
+    githubUsername: "Athazai",
+    instagramUsername: "athallah_zaq",
+    linkedinUsername: "athallah-zaidan"
+  },
 ];
 
 export default contributor;

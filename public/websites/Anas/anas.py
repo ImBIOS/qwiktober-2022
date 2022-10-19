@@ -1,0 +1,1 @@
+print('Nanti saya tampung')
