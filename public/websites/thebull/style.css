@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  /* padding: .9%; */
+  margin: 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: azure;
+}
+
+li {
+  padding: 10px 0px;
+}
+
+#main_img {
+  object-fit: contain;
+  width: 100%;
+  height: 200px;
+}
+
+.one {
+  background-color: rgba(10, 10, 70, 0.842);
+  width: 20%;
+  height: 200px;
+  margin: auto;
+}
+
+.one img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 70px 0px;
+  width: 30px;
+}
+
+#play_btn {
+  cursor: pointer;
+}
+
+.heading {
+  background-color: rgba(10, 10, 70, 0.842);
+  width: 50%;
+  height: 50px;
+  color: azure;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 50px;
+}
+
+.content {
+  font-size: 16px;
+  color: rgba(10, 10, 70, 0.842);
+  font-weight: bold;
+  padding-top: 4%;
+}
+
+.sec_3 {
+  padding-top: 4%;
+  background-color: rgba(100, 148, 237, 0.452);
+  margin: auto;
+}
+
+.misVis {
+  width: 70% !important;
+}
+
+.sec_4 {
+  padding: 2% 1%;
+  margin: auto;
+}
+
+.circle {
+  background-color: rgba(100, 148, 237, 0.671);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.cir_txt {
+  /* text-align: center; */
+  padding-left: 3%;
+  padding-bottom: 20%;
+}
+
+.contact {
+  width: 100%;
+  text-align: center;
+}
+
+.top {
+  padding-top: 0% !important;
+  padding-left: 1% !important;
+}
+
+#loc_col {
+  width: 100%;
+  height: 30px;
+  width: 20px;
+  padding: 0% !important;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+footer {
+  /* width: 100%; */
+  height: 75px;
+  background-color: rgba(10, 10, 70, 0.842);
+  margin: auto;
+}
+
+.foot_text {
+  padding-top: 1.5%;
+  color: azure;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icons img {
+  width: 30px;
+  /* height: 20px; */
+  color: azure;
+  padding-top: 10%;
+  padding-left: 2%;
+  align-items: center;
+  margin: auto;
+}
+
+@media (max-width: 426px) {
+  .one {
+    background-color: rgba(10, 10, 70, 0.842);
+    width: 50%;
+    height: 100px;
+    margin: auto;
+  }
+
+  .one img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0px;
+    width: 20px;
+  }
+
+  .why {
+    padding-top: 2%;
+  }
+
+  .foot_text {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .icons img {
+    padding-top: 2%;
+  }
+
+  .icons {
+    padding-left: 35%;
+  }
+
+  .cir_txt {
+    text-align: center;
+  }
+
+  .chn {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .h_txt {
+    text-align: center;
+  }
+}
