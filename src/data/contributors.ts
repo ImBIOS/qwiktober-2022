@@ -76,7 +76,7 @@ const contributor = [
     githubUsername: "Athazai",
     instagramUsername: "athallah_zaq",
     linkedinUsername: "athallah-zaidan"
-  }
+  },
 ];
 
 export default contributor;
