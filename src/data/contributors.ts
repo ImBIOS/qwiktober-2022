@@ -54,6 +54,11 @@ const contributor = [
     linkedinUsername: "Nafi Ageng Dhiandra"
   },
   {
+  fullname: "Abdul Aziz Zaki Hidayat",
+    githubUsername: "ZakiHidayat",
+    instagramUsername: "zakbeebat",
+    linkedinUsername: "Abdul Aziz Zaki Hidayat"
+  },
     fullname: "Abdul Aziz Zaki Hidayat",
     githubUsername: "ZakiHidayat",
     instagramUsername: "zakbeebat",
