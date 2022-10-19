@@ -7,9 +7,11 @@ export const Hero = component$(() => {
         <div class="title-container">
           <div class="hero">
             <img
-              src="images/idn-landscape.gif"
+              src="images/qwiktober_hero.svg"
               class="hero-img"
               alt="Hero Image"
+              width={500}
+              height={707}
             />
           </div>
 

@@ -27,6 +27,7 @@ export const ProfileCard = component$(
         <div class="biography-card" data-aos="fade-up" data-aos-duration="2000">
           <figure>
             <img
+              loading="lazy"
               src={
                 image
                   ? image
