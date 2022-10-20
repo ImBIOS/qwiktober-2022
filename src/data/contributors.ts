@@ -77,7 +77,6 @@ const contributor = [
     instagramUsername: "athallah_zaq",
     linkedinUsername: "athallah-zaidan"
   },
-
   {
     fullname: "Xploit 73",
     githubUsername: "xploit789",
