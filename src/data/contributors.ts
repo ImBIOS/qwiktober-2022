@@ -81,7 +81,7 @@ const contributor = [
     fullname: "Xploit 73",
     githubUsername: "xploit789",
     instagramUsername: "",
-    linkedinUsername: ""
+    linkedinUsername: " "
   },
 ];
 
