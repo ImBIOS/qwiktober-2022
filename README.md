@@ -84,7 +84,7 @@ npm run dev
 
 > Note: during dev mode, Vite will request many JS files, which does not represent a Qwik production build.
 
-### 🔨 Local development
+### 🔨 Local Development
 
 The [Netlify CLI](https://docs.netlify.com/cli/get-started/) can be used to preview a production build locally. To do so: First build your site, then to start a local server, run:
 
