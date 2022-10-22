@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Scissor Games</title>
+</head>
+
+<body class="bg-slate-900 text-white container mx-auto">
+
+    <article class="py-5" >
+        <h1 class="text-center text-4xl">Let's play A Game of Rock Paper Scissors</h1>
+        <hr class="mx-auto w-24">
+        <br />
+        <h2 class="text-2xl">The Rules :</h2>
+        <ul class="list-disc list-inside text-xl">
+            <li>Type <span class="font-bold">0</span> for Rock</li>
+            <li>Type <span class="font-bold">1</span> for Paper</li>
+            <li>Type <span class="font-bold">2</span> for Sciccors</li>
+        </ul>
+        <br />
+        <button class="border-2 bg-sky-500 border-sky-500 px-5 py-1 rounded-xl text-3xl " onclick="startGame()">Start</button>
+    </article>
+
+    <script>
+        function startGame() {
+            cm = Math.floor(Math.random() * 3);
+            input = prompt("Enter your Choice!");
+            pm = parseInt(input);
+            if (cm == 0 && pm == 1) {
+                alert("You beat Computer with Paper against Rock");
+            } else if ((cm = 0 && pm == 2)) {
+                alert("Computer Beat you with Rock");
+            } else if ((cm = 1 && pm == 0)) {
+                alert("Computer Beat you With Paper");
+            } else if ((cm = 1 && pm == 2)) {
+                alert("You beat computer with Scissor against Paper");
+            } else if ((cm = 2 && pm == 0)) {
+                alert("You beat computer with Rock against Scissor");
+            } else if ((cm = 2 && pm == 1)) {
+                alert("Computer Beat you With Scissor");
+            } else {
+                alert("It's a tie");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
