@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | News homepage</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="container mx-auto px-20">
+  <header class="py-5">
+    <nav class="flex justify-between items-center">
+      <h1 class="font-bold text-5xl">W.</h1>
+      <ul class="flex">
+        <a class="mx-3 hover:text-red-500 text-slate-800/70" href="#">
+          <li>Home</li>
+        </a>
+        <a class="mx-3 hover:text-red-500 text-slate-800/70" href="#">
+          <li>News</li>
+        </a>
+        <a class="mx-3 hover:text-red-500 text-slate-800/70" href="#">
+          <li>popular</li>
+        </a>
+        <a class="mx-3 hover:text-red-500 text-slate-800/70" href="#">
+          <li>Trending</li>
+        </a>
+        <a class="mx-3 hover:text-red-500 text-slate-800/70" href="#">
+          <li>Categories</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="flex gap-x-6 my-5">
+      <article class="w-8/12">
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+        <div class="flex mt-5">
+          <div class="w-4/12">
+            <h1 class="text-5xl font-bold">The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="w-8/12">
+            <p class="text-xl text-slate-900/70">
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the
+              hands of the people.
+              But is it really fulfilling its promise?
+            </p>
+            <button class="mt-5 py-2 px-4 border-2 bg-red-500 border-red-500 text-white">
+              Read more
+            </button>
+          </div>
+        </div>
+      </article>
+      <article class="w-4/12 bg-slate-900 px-4 py-5">
+        <h2 class="text-4xl text-yellow-500 font-bold">New</h2>
+        <div class="mt-5">
+          <h4 class="text-white text-lg">Hydrogen VS Electric Cars</h4>
+          <p class="text-slate-50/50 text-lg mt-1">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <br>
+          <hr>
+        </div>
+        <div class="mt-5">
+          <h4 class="text-white text-lg"> The Downsides of AI Artistry</h4>
+          <p class="text-slate-50/50 text-lg mt-1">What are the possible adverse effects of on-demand AI image
+            generation?</p>
+          <br>
+          <hr>
+        </div>
+        <div class="mt-5">
+          <h4 class="text-white text-lg">Is VC Funding Drying Up?</h4>
+          <p class="text-slate-50/50 text-lg mt-1"> Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+          <br>
+        </div>
+      </article>
+    </section>
+    <section class="flex flex-nowrap my-20">
+      <div class="flex ml-3">
+        <img src="./assets/images/image-retro-pcs.jpg" class="w-28" alt="">
+        <div class="ml-4 items-baseline">
+          <h1 class="text-4xl text-slate-900/40">01</h1>
+          <h4 class="font-bold text-lg">Reviving Retro PCs</h4>
+          <p class="text-[12px]">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="flex ml-3">
+        <img src="./assets/images/image-top-laptops.jpg" class="w-28" alt="">
+        <div class="ml-4 items-baseline">
+          <h1 class="text-4xl text-slate-900/40">02</h1>
+          <h4 class="font-bold text-lg">Top 10 Laptops of 2022</h4>
+          <p class="text-[12px]">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="flex ml-3">
+        <img src="./assets/images/image-gaming-growth.jpg" class="w-28" alt="">
+        <div class="ml-4 items-baseline">
+          <h1 class="text-4xl text-slate-900/40">03</h1>
+          <h4 class="font-bold text-lg">The Growth of Gaming</h4>
+          <p class="text-[12px]">How the pandemic has sparked fresh opportunities</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
