@@ -1,55 +1,350 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bookshelf</title>
-    <link rel="stylesheet" href="stylee.css"/>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
-    <header>
-      <h1>Toko Buku</h1>
-      <form>
-        <input class="" type="text" id="bookTitle" name="" placeholder="Cari Buku ..." />
-      </form>
-    </header>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- icon -->
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    <div class="wrapper">
-      <div class="container bg-white shadow">
-        <h2 class="container-header text-center">Cari buku</h2>
-        <form class="form" action="#" id="form">
-          <div class="form-group form-title">
-            <input type="text" id="title" name="title" required placeholder="Judul Buku" />
-          </div>
-          <div class="form-group form-title">
-            <input type="text" id="author" name="author" required placeholder="Author" />
-          </div>
-          <div class="form-group form-title">
-            <input type="date" id="date" name="date" required />
-          </div>
-          <button type="submit" class="btn-submit" id="btn-submit">Tambah List</button>
-          <div class="jmlh-book">
-            <h3>Jumlah Buku:</h3>
-            <h4 id="total-books"></h4>
-          </div>
-        </form>
-        <button type="submit" class="btn-reset" id="btn-reset">Hapus Semua List</button>
-      </div>
-      <div class="container2">
-        <h2 class="container-header">Belum Dibaca: <span id="unread-book"></span></h2>
+  <link href="assets/img/logo_id-removebg-preview.png" rel="icon">
+  <link href="assets/img/logo_id-removebg-preview.png" rel="icons">
 
-        <div class="list-item" id="books"></div>
-      </div>
-      <div class="container2">
-        <h2 class="container-header">Sudah Dibaca: <span id="read-book"></span></h2>
+  <title>kopi salman</title>
+  
+</head>
+<body>
+  <!-- header  -->
+  <header class="header">
+    <a href="#" class="Logo">
+      <img src="assets/img/logo2.png" style="width: 100px;" alt="">
 
-        <div class="list-item" id="books-items"></div>
+    </a>
+    <!-- nav -->
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#tentang">about</a>
+      <a href="#menu">menu</a>
+      <a href="#produks">produk</a>
+      <a href="#contact">countact us</a>
+      <a href="#blogs">Blog</a>
+
+
+   </nav>
+    <div class="icons">
+      <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+    <div class="kolom-pencarian">
+      <input type="search" id="kotak pencarian" placeholder="search here....">
+      <label for="kotak pencarian" class="fas fa-search"></label>
+    </div>
+    <div class="container-item-keranjang">
+      <div class="item-keranjang">
+        <span class="pencet"></span>
+        <img src="assets/img/7b7fd6fe353867cc33be1805fd5f0a1e.jpeg" alt="">
+            <div class="content">
+                <h3>Kapal api</h3>
+                <div class="harga">1.500</div>
       </div>
     </div>
-    <div class="no-list"></div>
+    <div class="item-keranjang">
+      <span class="pencet"></span>
+      <img src="assets/img/images.jpeg" alt="">
+          <div class="content">
+              <h3>Good day cappucino</h3>
+               <div class="harga">2.000</div>
+            </div>
+          </div>
+  <div class="item-keranjang">
+    <span class="pencet"></span>
+     <img src="assets/img/3f1ab53630ce38735f1a098abedeb68f.jpeg" alt="">
+      <div class="content">
+        <h3>White coffie</h3>
+          <div class="harga">1.000</div>
+           </div>
+       </div>
+<a href="#" class="tmll">beli sekarang</a>
+    </div>
 
-    <script src="script.js"></script>
-  </body>
+  </header>
+
+<!-- section -->
+  <section class="home" id="home">
+    <div class="content">
+      <h2>Toko Kopi salman</h2>
+      <p>Beli kopi dirumah kami antar</p>
+      <p>hanya dengan click kopi sampai</p>
+      <a href="#" class="tml">pesan sekarang</a>
+
+    </div>
+
+
+  </section>
+  <!-- main article -->
+  <main>
+    <article>
+      <section class="tentang" id="about">
+        <h1 class="menuju"><span>about</span>Coffie</h1>
+        <div class="row">
+          <div class="bg">
+        <img src="assets/img/about-img.jpeg" alt="">
+          </div>
+          <div class="content">
+            <h2>Kopi</h2>
+            <p>Kopi adalah minuman hasil seduhan biji kopi yang telah disangrai dan dihaluskan menjadi bubuk.[2] Kopi merupakan salah satu komoditas di dunia yang dibudidayakan lebih dari 50 negara. Dua spesies pohon kopi yang dikenal secara umum yaitu Kopi Robusta (Coffea canephora) dan Kopi Arabika (Coffea arabica).</p>
+            <p>Dunia perkopian berkembang dengan pesatnya akhir-akhir ini. Mereka yang mulanya hanya sekedar menikmati kopi instan dan (paling-paling) kopi tubruk di rumah kini telah beranjak ke kedai kopi dan menikmati aneka kopi dari mesin espresso. Kabar baiknya banyak penikmat kopi pemula yang menikmati kopi dengan level lebih tinggi.</p>
+            <a href="#" class="tml">Pelajari lebih lanjut</a>
+          </div>
+        </div>
+      </section>
+      </article>
+
+      <!-- aside -->
+
+      <aside>
+        <img id="face" src="assets/img/20220823_161117.jpg" />
+        <div id="details">
+            <h3>Salman salim</h3>
+            <p id="mail"><a href="Email">salmansalim006@gmail.com</a></p>
+            <p id="web-dev">Web Developer</p>
+        </div>
+      </aside>
+
+      <!-- menu -->
+
+      <section class="menu" id="menu">
+        <h1 class="menuju"> menu <span>kita</span> </h1>
+
+        <div class="kotak-container">
+    
+            <div class="kotak">
+                <img src="assets/img/menu-1.png" alt="">
+                <h3>enak dan sehat</h3>
+                <div class="harga">25K <span>30K</span></div>
+                <a href="#" class="tml">masukan ke keranjang</a>
+            </div>
+    
+            <div class="kotak">
+                <img src="assets/img/menu-2.png" alt="">
+                <h3>enak dan sehat</h3>
+                <div class="harga">20K <span>25K</span></div>
+                <a href="#" class="tml">masukan ke keranjang</a>
+            </div>
+    
+            <div class="kotak">
+                <img src="assets/img/menu-3.png" alt="">
+                <h3>enak dan sehat</h3>
+                <div class="harga">30K<span>40K</span></div>
+                <a href="#" class="tml">masukan ke keranjang</a>
+            </div>
+    
+            <div class="kotak">
+                <img src="assets/img/menu-4.png" alt="">
+                <h3>enak dan sehat</h3>
+                <div class="harga">15K <span>20K</span></div>
+                <a href="#" class="tml">masukan ke keranjang</a>
+            </div>
+    
+            <div class="kotak">
+                <img src="assets/img/menu-5.png" alt="">
+                <h3>enak dan sehat</h3>
+                <div class="harga">35K<span>50K</span></div>
+                <a href="#" class="tml">masukan ke keranjang</a>
+            </div>
+    
+            <div class="kotak">
+                <img src="assets/img/menu-6.png" alt="">
+                <h3>enak dan sehat</h3>
+                <div class="harga">10K <span>40K</span></div>
+                <a href="#" class="tml">masukan ke keranjang</a>
+            </div>
+    
+        </div>
+      </section>
+
+      <section class="produks" id="produk">
+        <h1 class="menuju">produk<span>kopi</span></h1>
+        <div class="kotak-container">
+
+          <div class="kotak">
+              <div class="icons">
+                  <a href="#" class="icon-keranjang"></a>
+                  <a href="#" class="icon-hati"></a>
+                  <a href="#" class="icon-mata"></a>
+              </div>
+              <div class="poto">
+                  <img src="assets/img/produk1.png" alt="">
+              </div>
+              <div class="content">
+                  <h3>kopi warga</h3>
+                  <div class="bintang">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <div class="harga">100K <span>150K</span></div>
+              </div>
+          </div>
+  
+          <div class="kotak">
+            <div class="icons">
+                <a href="#" class="icon-keranjang"></a>
+                <a href="#" class="icon-hati"></a>
+                <a href="#" class="icon-mata"></a>
+            </div>
+            <div class="poto">
+                <img src="assets/img/produk2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>cafeinated</h3>
+                <div class="bintang">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+                <div class="harga">100K <span>150K</span></div>
+            </div>
+        </div>
+        <div class="kotak">
+          <div class="icons">
+              <a href="#" class="icon-keranjang"></a>
+              <a href="#" class="icon-hati"></a>
+              <a href="#" class="icon-mata"></a>
+          </div>
+          <div class="poto">
+              <img src="assets/img/produk3.png" alt="">
+          </div>
+          <div class="content">
+              <h3>aya kopi</h3>
+              <div class="bintang">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+              <div class="harga">100K<span>150K</span></div>
+          </div>
+          <h3>aya kopi</h3>
+          <div class="bintang">
+            <div class="bintang">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="harga">100K<span>150K</span></div>
+        </div>
+       </div>
+      </div>
+
+      </section>
+
+<section class="contact" id="countact us">
+  <h1 class="menuju"><span>countact</span>kita</h1>
+  <div class="row">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2391.2375841959406!2d107.45041770777611!3d-6.564922029765026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690f23d0bc3d51%3A0x456b306312b44050!2sPASAR%20SIMPANG!5e0!3m2!1sid!2sid!4v1664866174188!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <form action="">
+      <h3>hubungi kami</h3>
+      <div class="inputbox">
+        <span class="icon-user"></span>
+        <input type="text" placeholder="name">
+     </div>
+      <div class="inputbox">
+        <span class="icon-email"></span>
+        <input type="text" placeholder="email">
+        </div>
+        <div class="inputbox">
+        <span class="icon-telpon"></span>
+        <input type="text" placeholder="phone">
+       </div>
+      <input type="submit" value="contact now" class="tml">
+    </form>
+  </div>
+
+</section>
+
+<!-- blog -->
+
+<section class="blogs" id="Blog">
+<h1 class="menuju">Blog<span>kami</span></h1>
+<div class="kotak-container">
+  <div class="kotak">
+    <div class="poto">
+      <img src="assets/img/blog-1.jpeg" alt="">
+    </div>
+     <div class="content">
+      <a href="#" class="judul">kopi yang enak dan menyegarkan</a>
+      <span>by salman/3okt,2022</span>
+      <p>kopi yang bagus untuk bersantai dan berkumpul bareng teman dan keluarga</p>
+      <a href="#" class="tml">baca lagi</a>
+    </div>
+  </div>
+  <div class="kotak">
+    <div class="poto">
+      <img src="assets/img/blog2.jpg" alt="">
+      </div>
+    <div class="content">
+      <a href="#" class="judul">macam macam kreasi latte</a>
+      <span>by salman/3okt,2022</span>
+      <p>cara membuat kreasi latte sendiri</p>
+      <a href="#" class="tml">baca lagi</a>
+  </div>
+ </div>
+<div class="kotak">
+  <div class="poto">
+    <img src="assets/img/blog3.jpg" alt="">
+     </div>
+    <div class="content">
+    <a href="#" class="judul">es kopi</a>
+    <span>by salman/3okt,2022</span>
+    <p>macam macam es kopi</p>
+    <a href="#" class="tml">baca lagi</a>
+    </div>
+   </div>
+ </div>
+</section>
+<section class="futter">
+  <div class="bagikan">
+    <a href="#" class="icon-facebook"></a>
+        <a href="#" class="icon-twiter"></a>
+        <a href="#" class="icon-instagram"></a>
+        <a href="#" class="icon-linkedin"></a>
+       
+  </div>
+  <div class="link">
+    <a href="#">home</a>
+    <a href="#">about</a>
+    <a href="#">menu</a>
+    <a href="#">produk</a>
+    <a href="#">countact</a>
+    <a href="#">Blog</a>
+
+  </div>
+  <div class="pembuat">dibuat oleh <span>salman</span> | IDN Solo</div>
+
+
+</section>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+  Made by salman salim
+    </footer> 
+
+    
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>
