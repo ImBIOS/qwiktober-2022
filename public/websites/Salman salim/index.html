@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salman salim</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="stylee.css"/>
+  </head>
+
+  <body>
+    <header>
+      <h1>Toko Buku</h1>
+      <form>
+        <input class="" type="text" id="bookTitle" name="" placeholder="Cari Buku ..." />
+      </form>
+    </header>
+
+    <div class="wrapper">
+      <div class="container bg-white shadow">
+        <h2 class="container-header text-center">Cari buku</h2>
+        <form class="form" action="#" id="form">
+          <div class="form-group form-title">
+            <input type="text" id="title" name="title" required placeholder="Judul Buku" />
+          </div>
+          <div class="form-group form-title">
+            <input type="text" id="author" name="author" required placeholder="Author" />
+          </div>
+          <div class="form-group form-title">
+            <input type="date" id="date" name="date" required />
+          </div>
+          <button type="submit" class="btn-submit" id="btn-submit">Tambah List</button>
+          <div class="jmlh-book">
+            <h3>Jumlah Buku:</h3>
+            <h4 id="total-books"></h4>
+          </div>
+        </form>
+        <button type="submit" class="btn-reset" id="btn-reset">Hapus Semua List</button>
+      </div>
+      <div class="container2">
+        <h2 class="container-header">Belum Dibaca: <span id="unread-book"></span></h2>
+
+        <div class="list-item" id="books"></div>
+      </div>
+      <div class="container2">
+        <h2 class="container-header">Sudah Dibaca: <span id="read-book"></span></h2>
+
+        <div class="list-item" id="books-items"></div>
+      </div>
+    </div>
+    <div class="no-list"></div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
