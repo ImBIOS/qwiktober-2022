@@ -17,6 +17,12 @@ const contributor = [
     instagramUsername: "risnanto73_",
     linkedinUsername: "tio-risnanto-605515164",
   },
+  {
+    fullname: "Ridho Akhsan Maulana",
+    githubUsername: "RidhoAkhsan",
+    instagramUsername: "ridhoakhsan.idn",
+    linkedinUsername: "ridho-akhsan",
+  },
 ];
 
 export default contributor;
