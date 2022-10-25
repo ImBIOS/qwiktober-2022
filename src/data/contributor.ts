@@ -22,6 +22,7 @@ const contributor = [
     githubUsername: "Upiiiii",
     instagramUsername: "rizqulloh.luthfi",
     linkedinUsername: " ",
+  },
 ];
 
 export default contributor;
