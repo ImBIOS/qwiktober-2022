@@ -1,0 +1,13 @@
+h1{
+    font-size: small;
+    color: antiquewhite;
+}
+p{
+    font-size: small;
+    color: aqua;
+}
+footer{
+    width: 100vh;
+    height: 100%;
+    background-color: aliceblue;
+}
