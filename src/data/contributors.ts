@@ -66,6 +66,17 @@ const contributor = [
     linkedinUsername: "Dzakwan Rachman"
   },
   {
+    fullname: "Dzakwan Daris Rachman",
+    githubUsername: "Drachzak",
+    instagramUsername: "dzaksssssss",
+    linkedinUsername: "Dzakwan Rachman"
+  },
+  {
+    fullname: "Aryuka Falian Jornasena",
+    githubUsername: "ryujinmax",
+    instagramUsername: "RyuJornasena",
+    linkedinUsername: "aryuka falian jornasena"
+   },
     fullname: "Muhammad Dzikry Hidayat",
     githubUsername: "Dzikstrats",
     instagramUsername: "mhmmd.dzkry_",
