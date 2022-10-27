@@ -77,6 +77,10 @@ const contributor = [
     instagramUsername: "athallah_zaq",
     linkedinUsername: "athallah-zaidan"
   },
+  {
+    fullname: "Bananavv",
+    githubUsername: "bananaavv"
+  },
 ];
 
 export default contributor;
