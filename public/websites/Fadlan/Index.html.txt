@@ -1,1 +1,2 @@
 //add index html
+<p>halo nama saya fadlan</p>
