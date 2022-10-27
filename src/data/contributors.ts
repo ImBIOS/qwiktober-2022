@@ -79,7 +79,7 @@ const contributor = [
   },
   {
     fullname: "Bananavv",
-    githubUsername: "Bananaavv"
+    githubUsername: "bananaavv"
   },
 ];
 
