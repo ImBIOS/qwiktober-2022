@@ -17,7 +17,7 @@ export const Hero = component$(() => {
 
           <div class="big-heading">
             <h1>Qwiktober 2022</h1>
-            <p style="color: white">
+            <p style="color: black">
               HACKTOBERFEST IS FOR EVERYONE. WHETHER IT'S YOUR FIRST TIME—OR
               YOUR NINTH—IT'S ALMOST TIME TO HACK OUT FOUR PRISTINE PULL/MERGE
               REQUESTS AND COMPLETE YOUR MISSION FOR OPEN SOURCE.
