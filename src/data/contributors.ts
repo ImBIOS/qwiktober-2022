@@ -81,9 +81,13 @@ const contributor = [
     fullname: "Bananavv",
     githubUsername: "bananaavv"
   },
-{
+  {
     fullname: "Muhammad Fadlan",
     githubUsername: "Aisydd"
+  },
+  {
+    fullname: "Shifan",
+    githubUsername: "yansif233"
   },
 ];
 
