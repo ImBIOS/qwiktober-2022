@@ -89,6 +89,10 @@ const contributor = [
     fullname: "Shifan",
     githubUsername: "yansif233"
   },
+  {
+    fullname: "Ahmad Syahran Zidane",
+    githubUsername: "syahran15"
+  },
 ];
 
 export default contributor;
