@@ -6,6 +6,11 @@ import { SecondMarquee } from "~/components/marquee/second-marquee";
 import { Hero } from "~/components/section/hero";
 import contributors from "~/data/contributors";
 
+interface Contributor {
+  login: string;
+  avatar_url: string;
+}
+
 export default component$(() => {
   const store = useStore({ data: [] });
 
@@ -55,8 +60,3 @@ export default component$(() => {
 export const head: DocumentHead = {
   title: "Qwiktober 2022"
 };
-
-interface Contributor {
-  login: string;
-  avatar_url: string;
-}
