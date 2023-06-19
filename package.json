@@ -28,7 +28,7 @@
     "test": "ava"
   },
   "devDependencies": {
-    "@builder.io/qwik": "0.9.0",
+    "@builder.io/qwik": "0.107.0",
     "@builder.io/qwik-city": "0.0.111",
     "@netlify/vite-plugin-netlify-edge": "1.1.0",
     "@types/eslint": "8.40.0",
